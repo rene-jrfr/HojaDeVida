@@ -1,11 +1,11 @@
-<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<svg width="70" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
  <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
 
  <g class="layer">
   <title>Layer 1</title>
   <g id="svg_1">
-   <rect fill="#3f7f00" height="116" id="svg_9" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" width="180" x="-0.29999" y="-0.89999"/>
-   <text fill="#000000" font-family="Sans-serif" font-size="16" font-weight="bold" id="logo" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(7.4658, 0, 0, 6.00847, -425.554, -522.102)" x="68.860693" xml:space="preserve" y="101.683051">RR</text>
+   <rect fill="#3f7f00" height="49" id="svg_9" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" width="71" x="-1" y="0"/>
+   <text fill="#000000" font-family="Sans-serif" font-size="16" font-weight="bold" id="logo" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(2.94484, 0, 0, 2.53806, -167.252, -220.543)" x="68.35566" xml:space="preserve" y="101.83283">RR</text>
   </g>
  </g>
 </svg>
