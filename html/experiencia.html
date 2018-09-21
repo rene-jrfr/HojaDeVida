@@ -20,41 +20,34 @@
     <a href="../index.html">Inicio</a> | <a href="educacion.html">Educacón</a> | <a href="#">Experencia</a>
   </nav>
   <body>
-    <h2><strong>Educación</strong></h2>
-    <table border="1" cellpadding="5" cellspacing"0">
-      <thead>
-        <tr>
-          <th>Año</th>
-          <th>Institución</th>
-          <th>Lugar</th>
-          <th>Titulo</th>
-          <th>¿Culminó?</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2007</td>
-          <td>CBTis Nº15</td>
-          <td>El Mante, Tamaulipas, México</td>
-          <td>Tec. Mecatronico</td>
-          <td>Si</td>
-        </tr>
-        <tr>
-          <td>2010</td>
-          <td>UPSLP</td>
-          <td>S.L.P, S.L.P, México</td>
-          <td>Ing. en Tecnologías de Manufactura</td>
-          <td>No</td>
-        </tr>
-        <tr>
-          <td>2011</td>
-          <td>UAMM - UAT</td>
-          <td>El Mante, Tmaulipas, México</td>
-          <td>Ing. en Sistemas Computacionales</td>
-          <td>Si</td>
-        </tr>
-      </tbody>
-    </table>
+    <form name="formRegistro" autocomplete="on">
+      <fieldset>
+        <legend><h3>Agregar Estudios</h3></legend>
+        <label for="year">Año: </label>
+        <select name="year">
+          <option value="1">2011</option>
+          <option value="1">2012</option>
+          <option value="1">2013</option>
+          <option value="1">2014</option>
+          <option value="1">2015</option>
+          <option value="1">2016</option>
+          <option value="1">2017</option>
+          <option value="1">2018</option>
+        </select><br>
+        <label for="institute">Institución: </label>
+        <input type="text" name="institute" placeholder="Ej: UNAM"><br>
+        <label for="place">Lugar: </label>
+        <input size="25" type="text" name="place" placeholder="Ej: Municipio, Estado, País"><br>
+        <label for="titulo">Título: </label>
+        <input type="text" name="titulo" placeholder="Ej: Ing. en Electronica"><br>
+        <label for="termnino">Culminó:</label><br>
+        <input type="radio" name="termnino"><b>Si</b>
+        <br>
+        <input type="radio" name="termnino"><b>No</b><br>
+        <label for="send">Enviar</label>
+        <input type="button" name="send" Enviar>
+      </fieldset>
+    </form>
   </body>
   <footer>
     <p>
